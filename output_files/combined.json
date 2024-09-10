@@ -1,0 +1,578 @@
+[
+    {
+        "id": "0",
+        "student_name": "Abwoga, Adrian Jared Paul",
+        "additional_details": {
+            "dob": "2000-06-17",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "1",
+        "student_name": "Akong'o, Shanelle Hilda Anyango",
+        "additional_details": {
+            "dob": "2001-11-14",
+            "gender": "F",
+            "special_character": "['yes']"
+        }
+    },
+    {
+        "id": "2",
+        "student_name": "Ang'edu, Jude Ocomil",
+        "additional_details": {
+            "dob": "2003-08-21",
+            "gender": "M",
+            "special_character": "['yes']"
+        }
+    },
+    {
+        "id": "3",
+        "student_name": "Arunga, Kyla Neema",
+        "additional_details": {
+            "dob": "2003-10-26",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "4",
+        "student_name": "Atenya, Anthony Magunga Ikobwa",
+        "additional_details": {
+            "dob": "2002-03-17",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "5",
+        "student_name": "Budembeshe, Moses Kasuni",
+        "additional_details": {
+            "dob": "2002-02-24",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "6",
+        "student_name": "Dessalegn, Kalid Geleta",
+        "additional_details": {
+            "dob": "2000-09-07",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "7",
+        "student_name": "Epetet, Keith Lokwei",
+        "additional_details": {
+            "dob": "2001-06-08",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "8",
+        "student_name": "Ger, David Otieno",
+        "additional_details": {
+            "dob": "2001-01-28",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "9",
+        "student_name": "Githinji, Don Moses Thigiti",
+        "additional_details": {
+            "dob": "2000-04-12",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "10",
+        "student_name": "Haji, Ashir Ali",
+        "additional_details": {
+            "dob": "2003-06-13",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "11",
+        "student_name": "Hassan, Fardowsa Abduhakim",
+        "additional_details": {
+            "dob": "2000-09-20",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "12",
+        "student_name": "Ismail, Ruweida Ali",
+        "additional_details": {
+            "dob": "2000-04-08",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "13",
+        "student_name": "Johnson, Myles Adebayo",
+        "additional_details": {
+            "dob": "2001-04-27",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "14",
+        "student_name": "Kamau, Ann Mumbi",
+        "additional_details": {
+            "dob": "2001-11-28",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "15",
+        "student_name": "Kangethe, Sharon Wanjiru",
+        "additional_details": {
+            "dob": "2000-02-20",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "16",
+        "student_name": "Karanu, Neema Muthoni",
+        "additional_details": {
+            "dob": "2001-11-24",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "17",
+        "student_name": "Kiarie, Samuel Ndungu",
+        "additional_details": {
+            "dob": "2000-06-09",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "18",
+        "student_name": "Kihara, Shannon Kendi",
+        "additional_details": {
+            "dob": "2002-10-14",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "19",
+        "student_name": "Kimutai, Peter Kibet",
+        "additional_details": {
+            "dob": "2002-09-16",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "20",
+        "student_name": "Kinyua, Victor Mfana",
+        "additional_details": {
+            "dob": "2003-10-28",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "21",
+        "student_name": "Kirema, Ian Muteithia",
+        "additional_details": {
+            "dob": "2001-03-01",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "22",
+        "student_name": "Kithae, Eric Muriithi",
+        "additional_details": {
+            "dob": "2000-10-02",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "23",
+        "student_name": "Korir, Kevin Kimutai",
+        "additional_details": {
+            "dob": "2002-10-26",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "24",
+        "student_name": "Kwoba, Alex Wafula",
+        "additional_details": {
+            "dob": "2002-04-26",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "25",
+        "student_name": "Maritim, Kelvin Kipngeno",
+        "additional_details": {
+            "dob": "2000-10-23",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "26",
+        "student_name": "Masaka, Zivai Takadiwa David",
+        "additional_details": {
+            "dob": "2002-07-06",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "27",
+        "student_name": "Mohamed, Ally Mahamud",
+        "additional_details": {
+            "dob": "2003-04-04",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "28",
+        "student_name": "Morekwa, David Nyamongo",
+        "additional_details": {
+            "dob": "2001-02-13",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "29",
+        "student_name": "Mugambi, Kelvin Karani",
+        "additional_details": {
+            "dob": "2000-04-10",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "30",
+        "student_name": "Muhia, Victor Mwaura",
+        "additional_details": {
+            "dob": "2000-09-26",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "31",
+        "student_name": "Muiyuro, Natasha Waithira",
+        "additional_details": {
+            "dob": "2002-08-19",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "32",
+        "student_name": "Muli, Grace Kanini",
+        "additional_details": {
+            "dob": "2000-04-27",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "33",
+        "student_name": "Muroki, Mark Gichuhi",
+        "additional_details": {
+            "dob": "2001-12-28",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "34",
+        "student_name": "Mutaki, Ruby Mbete",
+        "additional_details": {
+            "dob": "2002-06-17",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "35",
+        "student_name": "Mutua, Franklin Karanja",
+        "additional_details": {
+            "dob": "2003-10-21",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "36",
+        "student_name": "Mutunga, Eric Kiamba",
+        "additional_details": {
+            "dob": "2003-07-11",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "37",
+        "student_name": "Mutunga, Patience Kamanthe",
+        "additional_details": {
+            "dob": "2000-08-08",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "38",
+        "student_name": "Mwanda, George Josiah",
+        "additional_details": {
+            "dob": "2000-02-20",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "39",
+        "student_name": "Nabaala, Andrew Kasaine",
+        "additional_details": {
+            "dob": "2001-07-27",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "40",
+        "student_name": "Naibei, Monicah",
+        "additional_details": {
+            "dob": "2002-11-28",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "41",
+        "student_name": "Ndambiri, Yvonne Nyambura",
+        "additional_details": {
+            "dob": "2002-07-21",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "42",
+        "student_name": "Ndungu, Sarah Laura Wangari",
+        "additional_details": {
+            "dob": "2003-10-01",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "43",
+        "student_name": "Ng'ang'a, Ian Mutuge",
+        "additional_details": {
+            "dob": "2001-01-23",
+            "gender": "M",
+            "special_character": "['yes']"
+        }
+    },
+    {
+        "id": "44",
+        "student_name": "Ngeno, Alvin Kipkurui",
+        "additional_details": {
+            "dob": "2002-12-22",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "45",
+        "student_name": "Ngigi, Michael Macharia",
+        "additional_details": {
+            "dob": "2003-08-11",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "46",
+        "student_name": "Njuguna, Elizabeth Njoki",
+        "additional_details": {
+            "dob": "2000-07-07",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "47",
+        "student_name": "Nugi, Andrew Kiarie",
+        "additional_details": {
+            "dob": "2003-04-15",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "48",
+        "student_name": "Nyambura, Erica",
+        "additional_details": {
+            "dob": "2002-08-26",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "49",
+        "student_name": "Nzioki, Maureen Mutete",
+        "additional_details": {
+            "dob": "2002-10-05",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "50",
+        "student_name": "Ochanda, Steven Joel Jona",
+        "additional_details": {
+            "dob": "2000-04-02",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "51",
+        "student_name": "Ogutu, Brenda Mary Anyango",
+        "additional_details": {
+            "dob": "2002-04-24",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "52",
+        "student_name": "Ombeni, Mwenzangu Faraja",
+        "additional_details": {
+            "dob": "2001-12-03",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "53",
+        "student_name": "Ombongi, Caleb Magare",
+        "additional_details": {
+            "dob": "2002-09-27",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "54",
+        "student_name": "Orony, Charis Ng'wono",
+        "additional_details": {
+            "dob": "2000-01-16",
+            "gender": "F",
+            "special_character": "['yes']"
+        }
+    },
+    {
+        "id": "55",
+        "student_name": "Owens, Nicole Owens",
+        "additional_details": {
+            "dob": "2000-09-14",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "56",
+        "student_name": "Patel, Jay Hirji",
+        "additional_details": {
+            "dob": "2003-06-25",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "57",
+        "student_name": "Tonui, Martin",
+        "additional_details": {
+            "dob": "2002-06-02",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "58",
+        "student_name": "Tum, Bramwel Kipchirchir",
+        "additional_details": {
+            "dob": "2001-02-06",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "59",
+        "student_name": "Wachira, Joy Muthoni",
+        "additional_details": {
+            "dob": "2001-08-07",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "60",
+        "student_name": "Wakaba, Rosemary Njeri",
+        "additional_details": {
+            "dob": "2000-01-11",
+            "gender": "F",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "61",
+        "student_name": "Wanjao, Louis Mbugua",
+        "additional_details": {
+            "dob": "2001-04-20",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    },
+    {
+        "id": "62",
+        "student_name": "Waweru, Monika Ng'endo",
+        "additional_details": {
+            "dob": "2002-05-20",
+            "gender": "F",
+            "special_character": "['yes']"
+        }
+    },
+    {
+        "id": "63",
+        "student_name": "Waweru, Trevor Kariuki",
+        "additional_details": {
+            "dob": "2002-04-19",
+            "gender": "M",
+            "special_character": "['no']"
+        }
+    }
+]

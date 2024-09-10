@@ -2,6 +2,7 @@ import pandas as pd
 import re
 import os
 import logging
+import json
 
 from generate_email_addresses import generate_email
 
@@ -37,14 +38,16 @@ def split_gender(df):
 
 def find_special_characters(df):
     """Find students with special characters in their names."""
-    pattern = re.compile(r'[^a-zA-Z\s]')
-    special_chars_students = df[df['Student Name'].apply(lambda x: bool(pattern.search(x)))]
+    df['Special Character'] = df['Student Name'].apply(
+        lambda name: 'yes' if re.search(r'[^a-zA-Z\s,]', name) else 'no')
+
+    # Get a list of students with 'yes' (indicating special characters)
+    special_students_list = df[df['Special Character'] == 'yes']['Student Name'].tolist()
 
     # Log students with special characters
-    special_students_list = special_chars_students['Student Name'].tolist()
     logging.info(f"Students with special characters: {special_students_list}")
 
-    return special_chars_students
+    return df
 
 
 def save_to_files(df, male_students, female_students, output_dir):
@@ -64,6 +67,39 @@ def save_to_files(df, male_students, female_students, output_dir):
     female_students.to_csv(os.path.join(output_dir, 'female_students.tsv'), sep='\t', index=False)
 
 
+def save_to_json(data, output):
+    with open(output, 'w') as json_file:
+        json.dump(data, json_file, indent=4)
+
+
+def combined_students_to_json(df):
+    json_list = []
+    df['DoB'] = df['DoB'].astype(str)
+    for idx, row in df.iterrows():
+        student_json = {
+            "id": str(idx),
+            "student_name": row['Student Name'],
+            "additional_details": {
+                "dob": row['DoB'],
+                "gender": row['Gender'],
+                "special_character": f"['{row['Special Character']}']",
+            }
+        }
+        json_list.append(student_json)
+    save_to_json(json_list, "output_files/combined_students.json")
+
+
+def shuffled_students_to_json(df):
+    # Shuffle the DataFrame
+    df_shuffled = df.sample(frac=1, random_state=42).reset_index(drop=True)
+    df_shuffled['DoB'] = df_shuffled['DoB'].astype(str)
+
+    # Change to JSON
+    json_data = df_shuffled.to_dict(orient='records')
+
+    save_to_json(json_data, "output_files/shuffled_students.json")
+
+
 def main():
     # Setup logging to log student counts and special character names
     setup_logging('output_files/logs/computations.log')
@@ -73,15 +109,22 @@ def main():
 
     # Generate unique email addresses
     df = generate_email(df)
+    pd.set_option('display.max_columns', None)
 
     # Split students by gender and log counts
     male_students, female_students = split_gender(df)
 
     # Find students with special characters and log names
-    special_chars_students = find_special_characters(df)
+    df = find_special_characters(df)
 
     # Save all data to files (both CSV and TSV)
     save_to_files(df, male_students, female_students, 'output_files/')
+
+    # Combine all the data in one JSON file
+    combined_students_to_json(df)
+
+    # One time shuffle of the data saved to JSON file
+    shuffled_students_to_json(df)
 
 
 if __name__ == "__main__":

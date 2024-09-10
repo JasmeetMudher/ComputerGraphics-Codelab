@@ -22,8 +22,9 @@ def generate_email(df):
         # Ensure there are enough parts to extract first and last names
         if len(name_parts) > 1:
             full_name_parts = name_parts[1].split()
+
             if len(full_name_parts) > 1:
-                first_name = full_name_parts[0]
+                first_name = name_parts[0]
                 last_name = full_name_parts[-1]
                 email_base = f"{clean_name(first_name[0])}{clean_name(last_name)}@gmail.com"
             else:
