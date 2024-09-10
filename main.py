@@ -7,9 +7,9 @@ def main():
     generate_student_names_main()
 
     # Log the computations
-    male_count = ...  # You need to determine how to get this value
-    female_count = ...  # You need to determine how to get this value
-    special_chars_names = ...  # You need to determine how to get this value
+    male_count = ...
+    female_count = ...
+    special_chars_names = ...
     log_male_female_count(male_count, female_count, 'output_files/logs/computations.log')
     log_special_characters(special_chars_names, 'output_files/logs/computations.log')
 

@@ -129,3 +129,9 @@
 2024-09-10 12:37:24,892 - INFO - Total Male Students: 40
 2024-09-10 12:37:24,892 - INFO - Total Female Students: 24
 2024-09-10 12:37:24,894 - INFO - Students with special characters: ["Akong'o, Shanelle Hilda Anyango", "Ang'edu, Jude Ocomil", "Ng'ang'a, Ian Mutuge", "Orony, Charis Ng'wono", "Waweru, Monika Ng'endo"]
+2024-09-10 13:07:47,651 - INFO - Total Male Students: 40
+2024-09-10 13:07:47,651 - INFO - Total Female Students: 24
+2024-09-10 13:07:47,652 - INFO - Students with special characters: ["Akong'o, Shanelle Hilda Anyango", "Ang'edu, Jude Ocomil", "Ng'ang'a, Ian Mutuge", "Orony, Charis Ng'wono", "Waweru, Monika Ng'endo"]
+2024-09-10 13:07:47,677 - INFO - Number of male students: Ellipsis
+2024-09-10 13:07:47,677 - INFO - Number of female students: Ellipsis
+2024-09-10 13:07:47,677 - INFO - Names with special characters: Ellipsis
