@@ -1,5 +1,4 @@
 # generate_email_addresses.py
-import pandas as pd
 import re
 
 
