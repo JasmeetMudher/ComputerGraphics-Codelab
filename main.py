@@ -45,7 +45,6 @@ def main():
         for record in formatted_data:
             jsonl_file.write(json.dumps(record) + '\n')
 
-    print("Formatted shuffled data saved to JSON and JSONL files.")
 
 
 if __name__ == '__main__':
