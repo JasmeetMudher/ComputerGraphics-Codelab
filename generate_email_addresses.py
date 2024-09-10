@@ -14,7 +14,7 @@ def generate_emails(data):
         first_name, last_name = split_name(row['Student Name'])
         email = generate_email(first_name, last_name)
         emails.append([row['Student Number'], row['Student Name'], email])
-        log_computation(f"Generated email for {row['Student Name']}: {email}")
+
 
     email_df = pd.DataFrame(emails, columns=['Student Number', 'Student Name', 'Email Address'])
     email_df.to_csv('output_files/email_addresses.csv', sep=',', index=False)
