@@ -12,8 +12,8 @@ def generate_email(first_name, last_name):
 # Function to split names into first letter of the last name (before comma) and the full last name (after comma)
 def split_name(full_name):
     name_parts = full_name.split(', ')
-    last_name_before_comma = sanitize_name(name_parts[0])  # Last name before the comma (e.g., "Akong'o")
-    last_word_after_comma = sanitize_name(name_parts[1].split()[-1])  # Last word after the comma (e.g., "Anyango")
+    last_name_before_comma = sanitize_name(name_parts[0])
+    last_word_after_comma = sanitize_name(name_parts[1].split()[-1])
 
     # Return the first letter of the last name and the full last word after the comma
     return last_name_before_comma[0], last_word_after_comma

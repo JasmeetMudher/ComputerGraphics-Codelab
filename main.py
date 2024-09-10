@@ -17,7 +17,6 @@ def main():
     # Shuffle the student data
     shuffled_data = student_data.sample(frac=1).reset_index(drop=True)
 
-    # Convert Timestamp to string if necessary
     for column in shuffled_data.columns:
         if pd.api.types.is_datetime64_any_dtype(shuffled_data[column]):
             shuffled_data[column] = shuffled_data[column].astype(str)
