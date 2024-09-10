@@ -30,7 +30,7 @@ def main():
             "additional_details": {
                 "dob": row["DoB"],
                 "gender": row["Gender"],
-                "special_character": ["no"]  # Adjust if you have special character handling logic
+                "special_character": ["no"]
             }
         }
         formatted_data.append(record)
